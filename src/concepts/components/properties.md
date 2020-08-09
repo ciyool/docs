@@ -37,7 +37,7 @@ fn view(&self) -> Html
 ## 示例
 
 ```rust
-pub struct LinkColor {
+pub enum LinkColor {
     Blue,
     Red,
     Green,
